@@ -61,28 +61,24 @@
 //  56. Xy Grid
 
 @import 'util/util';
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i|Raleway:300,400,700,800');
 
 // 1. Global
 // ---------
 
-$global-font-size: 100%;
+$global-font-size: 16px;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
-  primary: #1779ba,
-  secondary: #767676,
+  primary: $tappan-red,
+  secondary: $michigan-blue,
   success: #3adb76,
   warning: #ffae00,
   alert: #cc4b37,
 );
-$light-gray: #e6e6e6;
-$medium-gray: #cacaca;
-$dark-gray: #8a8a8a;
-$black: #0a0a0a;
-$white: #fefefe;
 $body-background: $white;
 $body-font-color: $black;
-$body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+$body-font-family: 'Raleway', Helvetica, sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
@@ -135,7 +131,7 @@ $header-font-weight: $global-weight-normal;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
 $header-color: inherit;
-$header-lineheight: 1.4;
+$header-lineheight: 1.1;
 $header-margin-bottom: 0.5rem;
 $header-styles: (
   small: (
@@ -147,11 +143,11 @@ $header-styles: (
     'h6': ('font-size': 16),
   ),
   medium: (
-    'h1': ('font-size': 48),
-    'h2': ('font-size': 40),
-    'h3': ('font-size': 31),
-    'h4': ('font-size': 25),
-    'h5': ('font-size': 20),
+    'h1': ('font-size': 64),
+    'h2': ('font-size': 48),
+    'h3': ('font-size': 40),
+    'h4': ('font-size': 32),
+    'h5': ('font-size': 24),
     'h6': ('font-size': 16),
   ),
 );
